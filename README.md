@@ -13,6 +13,10 @@ Le projet simule un environnement de jeu où un agent (l'oiseau) apprend à navi
 * **Système de Récompenses** : Gain de points pour chaque tuyau franchi et pénalité en cas de collision.
 * **Visualisation** : Rendu graphique activé périodiquement (tous les 50 épisodes) pour observer la progression de l'IA.
 
+## Utilisation
+Le fichier flappy_user.py contient une interface jouable pour l'utilisateur
+Les fichiers restants sont des essais d'implémentation d'un agent autonome qui n'ont pour le moment pas aboutis
+
 ## Prérequis
 
 * Python 3.x
@@ -22,3 +26,4 @@ Le projet simule un environnement de jeu où un agent (l'oiseau) apprend à navi
 
 ```bash
 pip install pygame torch numpy
+
